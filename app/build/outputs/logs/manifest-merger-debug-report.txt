@@ -1,0 +1,91 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:3
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:3
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:3
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+application
+ADDED from AndroidManifest.xml:7:3
+	android:label
+		ADDED from AndroidManifest.xml:7:46
+	android:icon
+		ADDED from AndroidManifest.xml:7:16
+receiver#com.paad.PA4AD_Ch14_MyWidget.MyAppWidget
+ADDED from AndroidManifest.xml:22:5
+	android:label
+		ADDED from AndroidManifest.xml:23:15
+	android:name
+		ADDED from AndroidManifest.xml:22:15
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from AndroidManifest.xml:24:7
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from AndroidManifest.xml:25:9
+	android:name
+		ADDED from AndroidManifest.xml:25:17
+intent-filter#com.paad.mywidget.FORCE_WIDGET_UPDATE
+ADDED from AndroidManifest.xml:27:7
+action#com.paad.mywidget.FORCE_WIDGET_UPDATE
+ADDED from AndroidManifest.xml:28:9
+	android:name
+		ADDED from AndroidManifest.xml:28:17
+meta-data#android.appwidget.provider
+ADDED from AndroidManifest.xml:30:7
+	android:resource
+		ADDED from AndroidManifest.xml:32:9
+	android:name
+		ADDED from AndroidManifest.xml:31:9
+activity#com.paad.PA4AD_Ch14_MyWidget.MyWidgetConfigurationActivity
+ADDED from AndroidManifest.xml:37:5
+	android:name
+		ADDED from AndroidManifest.xml:37:15
+intent-filter#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from AndroidManifest.xml:38:7
+action#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from AndroidManifest.xml:39:9
+	android:name
+		ADDED from AndroidManifest.xml:39:17
+service#com.paad.PA4AD_Ch14_MyWidget.MyRemoteViewsService
+ADDED from AndroidManifest.xml:44:5
+	android:permission
+		ADDED from AndroidManifest.xml:45:14
+	android:name
+		ADDED from AndroidManifest.xml:44:14
+activity#com.paad.appwidgets.MyActivity
+ADDED from AndroidManifest.xml:48:5
+	android:label
+		ADDED from AndroidManifest.xml:49:15
+	android:name
+		ADDED from AndroidManifest.xml:48:15
+receiver#com.paad.PA4AD_Ch14_MyWidget.FullAppWidget
+ADDED from AndroidManifest.xml:52:5
+	android:label
+		ADDED from AndroidManifest.xml:52:45
+	android:name
+		ADDED from AndroidManifest.xml:52:15
+receiver#com.paad.PA4AD_Ch14_MyWidget.MyStackWidget
+ADDED from AndroidManifest.xml:62:5
+	android:label
+		ADDED from AndroidManifest.xml:62:45
+	android:name
+		ADDED from AndroidManifest.xml:62:15
+receiver#com.paad.appwidgets.MyMediaStackWidget
+ADDED from AndroidManifest.xml:72:5
+	android:label
+		ADDED from AndroidManifest.xml:72:69
+	android:name
+		ADDED from AndroidManifest.xml:72:15
+service#com.paad.appwidgets.MyMediaRemoteViewsService
+ADDED from AndroidManifest.xml:82:5
+	android:permission
+		ADDED from AndroidManifest.xml:83:14
+	android:name
+		ADDED from AndroidManifest.xml:82:14
