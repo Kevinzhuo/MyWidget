@@ -1,4 +1,4 @@
-package com.paad.PA4AD_Ch14_MyWidget;
+package com.paad.MyWidget;
 
 import android.app.Activity;
 import android.app.AlarmManager;
@@ -9,6 +9,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+
+import com.paad.PA4AD_Ch14_MyWidget.R;
 
 public class MyActivity extends Activity {
   @Override

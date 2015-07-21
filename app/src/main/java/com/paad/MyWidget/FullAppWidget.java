@@ -1,4 +1,4 @@
-package com.paad.PA4AD_Ch14_MyWidget;
+package com.paad.MyWidget;
 
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
@@ -8,6 +8,8 @@ import android.graphics.Color;
 import android.os.SystemClock;
 import android.view.View;
 import android.widget.RemoteViews;
+
+import com.paad.PA4AD_Ch14_MyWidget.R;
 
 public class FullAppWidget extends AppWidgetProvider {
   @Override

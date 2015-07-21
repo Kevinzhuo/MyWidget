@@ -1,4 +1,4 @@
-package com.paad.PA4AD_Ch14_MyWidget;
+package com.paad.MyWidget;
 
 import android.appwidget.AppWidgetProvider;
 

@@ -1,4 +1,4 @@
-package com.paad.PA4AD_Ch14_MyWidget;
+package com.paad.MyWidget;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -8,6 +8,8 @@ import android.net.Uri;
 import android.provider.MediaStore;
 import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
+
+import com.paad.PA4AD_Ch14_MyWidget.R;
 
 public class MyMediaRemoteViewsService extends RemoteViewsService {
   

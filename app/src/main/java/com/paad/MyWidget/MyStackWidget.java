@@ -1,4 +1,4 @@
-package com.paad.PA4AD_Ch14_MyWidget;
+package com.paad.MyWidget;
 
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
@@ -6,6 +6,8 @@ import android.appwidget.AppWidgetProvider;
 import android.content.Context;
 import android.content.Intent;
 import android.widget.RemoteViews;
+
+import com.paad.PA4AD_Ch14_MyWidget.R;
 
 public class MyStackWidget extends AppWidgetProvider {
 

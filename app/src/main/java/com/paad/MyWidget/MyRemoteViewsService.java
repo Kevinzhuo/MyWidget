@@ -1,4 +1,4 @@
-package com.paad.PA4AD_Ch14_MyWidget;
+package com.paad.MyWidget;
 
 /**
  * Listing 14-21: Creating a Remote Views Service
@@ -9,6 +9,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
+
+import com.paad.PA4AD_Ch14_MyWidget.R;
 
 public class MyRemoteViewsService extends RemoteViewsService {
   
@@ -68,7 +70,7 @@ public class MyRemoteViewsService extends RemoteViewsService {
     }
 
     // Return true if the unique IDs provided by each item are stable -- 
-    // that is, they donÕt change at runtime.
+    // that is, they donï¿½t change at runtime.
     public boolean hasStableIds() {
       return false;
     }

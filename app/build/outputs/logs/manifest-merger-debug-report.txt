@@ -4,88 +4,96 @@ ADDED from AndroidManifest.xml:2:1
 	xmlns:android
 		ADDED from AndroidManifest.xml:2:11
 	package
-		ADDED from AndroidManifest.xml:3:3
+		ADDED from AndroidManifest.xml:3:5
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
 	android:versionName
-		ADDED from AndroidManifest.xml:5:3
+		ADDED from AndroidManifest.xml:5:5
 	android:versionCode
-		ADDED from AndroidManifest.xml:4:3
+		ADDED from AndroidManifest.xml:4:5
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:10:9
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+	android:maxSdkVersion
+		ADDED from AndroidManifest.xml:8:9
 application
-ADDED from AndroidManifest.xml:7:3
+ADDED from AndroidManifest.xml:12:5
 	android:label
-		ADDED from AndroidManifest.xml:7:46
+		ADDED from AndroidManifest.xml:14:9
 	android:icon
-		ADDED from AndroidManifest.xml:7:16
-receiver#com.paad.PA4AD_Ch14_MyWidget.MyAppWidget
-ADDED from AndroidManifest.xml:22:5
+		ADDED from AndroidManifest.xml:13:9
+receiver#com.paad.MyWidget.MyAppWidget
+ADDED from AndroidManifest.xml:29:9
 	android:label
-		ADDED from AndroidManifest.xml:23:15
+		ADDED from AndroidManifest.xml:31:13
 	android:name
-		ADDED from AndroidManifest.xml:22:15
+		ADDED from AndroidManifest.xml:30:13
 intent-filter#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from AndroidManifest.xml:24:7
+ADDED from AndroidManifest.xml:32:13
 action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from AndroidManifest.xml:25:9
+ADDED from AndroidManifest.xml:33:17
 	android:name
-		ADDED from AndroidManifest.xml:25:17
+		ADDED from AndroidManifest.xml:33:25
 intent-filter#com.paad.mywidget.FORCE_WIDGET_UPDATE
-ADDED from AndroidManifest.xml:27:7
+ADDED from AndroidManifest.xml:35:13
 action#com.paad.mywidget.FORCE_WIDGET_UPDATE
-ADDED from AndroidManifest.xml:28:9
+ADDED from AndroidManifest.xml:36:17
 	android:name
-		ADDED from AndroidManifest.xml:28:17
+		ADDED from AndroidManifest.xml:36:25
 meta-data#android.appwidget.provider
-ADDED from AndroidManifest.xml:30:7
+ADDED from AndroidManifest.xml:39:13
 	android:resource
-		ADDED from AndroidManifest.xml:32:9
+		ADDED from AndroidManifest.xml:41:17
 	android:name
-		ADDED from AndroidManifest.xml:31:9
-activity#com.paad.PA4AD_Ch14_MyWidget.MyWidgetConfigurationActivity
-ADDED from AndroidManifest.xml:37:5
+		ADDED from AndroidManifest.xml:40:17
+activity#com.paad.MyWidget.MyWidgetConfigurationActivity
+ADDED from AndroidManifest.xml:45:9
 	android:name
-		ADDED from AndroidManifest.xml:37:15
+		ADDED from AndroidManifest.xml:45:19
 intent-filter#android.appwidget.action.APPWIDGET_CONFIGURE
-ADDED from AndroidManifest.xml:38:7
+ADDED from AndroidManifest.xml:46:13
 action#android.appwidget.action.APPWIDGET_CONFIGURE
-ADDED from AndroidManifest.xml:39:9
+ADDED from AndroidManifest.xml:47:17
 	android:name
-		ADDED from AndroidManifest.xml:39:17
-service#com.paad.PA4AD_Ch14_MyWidget.MyRemoteViewsService
-ADDED from AndroidManifest.xml:44:5
+		ADDED from AndroidManifest.xml:47:25
+service#com.paad.MyWidget.MyRemoteViewsService
+ADDED from AndroidManifest.xml:52:9
 	android:permission
-		ADDED from AndroidManifest.xml:45:14
+		ADDED from AndroidManifest.xml:54:13
 	android:name
-		ADDED from AndroidManifest.xml:44:14
-activity#com.paad.appwidgets.MyActivity
-ADDED from AndroidManifest.xml:48:5
+		ADDED from AndroidManifest.xml:53:13
+activity#com.paad.MyWidget.MyActivity
+ADDED from AndroidManifest.xml:56:9
 	android:label
-		ADDED from AndroidManifest.xml:49:15
+		ADDED from AndroidManifest.xml:58:13
 	android:name
-		ADDED from AndroidManifest.xml:48:15
-receiver#com.paad.PA4AD_Ch14_MyWidget.FullAppWidget
-ADDED from AndroidManifest.xml:52:5
+		ADDED from AndroidManifest.xml:57:13
+receiver#com.paad.MyWidget.FullAppWidget
+ADDED from AndroidManifest.xml:60:9
 	android:label
-		ADDED from AndroidManifest.xml:52:45
+		ADDED from AndroidManifest.xml:62:13
 	android:name
-		ADDED from AndroidManifest.xml:52:15
-receiver#com.paad.PA4AD_Ch14_MyWidget.MyStackWidget
-ADDED from AndroidManifest.xml:62:5
+		ADDED from AndroidManifest.xml:61:13
+receiver#com.paad.MyWidget.MyStackWidget
+ADDED from AndroidManifest.xml:71:9
 	android:label
-		ADDED from AndroidManifest.xml:62:45
+		ADDED from AndroidManifest.xml:73:13
 	android:name
-		ADDED from AndroidManifest.xml:62:15
-receiver#com.paad.appwidgets.MyMediaStackWidget
-ADDED from AndroidManifest.xml:72:5
+		ADDED from AndroidManifest.xml:72:13
+receiver#com.paad.MyWidget.MyMediaStackWidget
+ADDED from AndroidManifest.xml:82:9
 	android:label
-		ADDED from AndroidManifest.xml:72:69
+		ADDED from AndroidManifest.xml:84:13
 	android:name
-		ADDED from AndroidManifest.xml:72:15
-service#com.paad.appwidgets.MyMediaRemoteViewsService
-ADDED from AndroidManifest.xml:82:5
+		ADDED from AndroidManifest.xml:83:13
+service#com.paad.MyWidget.MyMediaRemoteViewsService
+ADDED from AndroidManifest.xml:93:9
 	android:permission
-		ADDED from AndroidManifest.xml:83:14
+		ADDED from AndroidManifest.xml:95:13
 	android:name
-		ADDED from AndroidManifest.xml:82:14
+		ADDED from AndroidManifest.xml:94:13

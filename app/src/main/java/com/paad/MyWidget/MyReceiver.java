@@ -1,4 +1,4 @@
-package com.paad.PA4AD_Ch14_MyWidget;
+package com.paad.MyWidget;
 
 import android.appwidget.AppWidgetManager;
 import android.content.BroadcastReceiver;
@@ -6,6 +6,8 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.widget.RemoteViews;
+
+import com.paad.PA4AD_Ch14_MyWidget.R;
 
 public class MyReceiver extends BroadcastReceiver {
 

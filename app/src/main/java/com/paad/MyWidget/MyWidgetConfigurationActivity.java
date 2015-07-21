@@ -1,9 +1,11 @@
-package com.paad.PA4AD_Ch14_MyWidget;
+package com.paad.MyWidget;
 
 import android.app.Activity;
 import android.appwidget.AppWidgetManager;
 import android.content.Intent;
 import android.os.Bundle;
+
+import com.paad.PA4AD_Ch14_MyWidget.R;
 
 public class MyWidgetConfigurationActivity extends Activity {
   /**

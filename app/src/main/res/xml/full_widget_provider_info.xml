@@ -9,5 +9,5 @@
   android:resizeMode="horizontal|vertical"
   android:previewImage="@drawable/widget_preview"
   android:configure=
-  "com.paad.PA4AD_Ch14_MyWidget.MyWidgetConfigurationActivity"
+  "com.paad.MyWidget.MyWidgetConfigurationActivity"
 />
